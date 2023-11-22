@@ -80,6 +80,7 @@ if __name__ == "__main__":
         encryption_algorithm=serialization.NoEncryption()
     )
 
+
     public_key_pem = public_key.public_bytes(
         encoding=serialization.Encoding.PEM,
         format=serialization.PublicFormat.SubjectPublicKeyInfo
